@@ -6,6 +6,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+Desktop.ini
 
 # Editor directories and files
 .idea/
@@ -13,14 +14,21 @@ Thumbs.db
 *.swp
 *.swo
 *~
+*.sublime-workspace
+*.sublime-project
 
 # Logs
 *.log
 logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
 # Dependencies
 node_modules/
 vendor/
+bower_components/
 
 # Build outputs
 dist/
@@ -31,11 +39,16 @@ target/
 *.dll
 *.so
 *.dylib
+*.class
+*.jar
+*.war
+*.ear
 
 # Environment variables
 .env
 .env.local
 .env.*.local
+.env.example
 
 # Python
 __pycache__/
@@ -46,8 +59,18 @@ __pycache__/
 env/
 venv/
 ENV/
-*.egg-info/
+venv/
 .eggs/
+*.egg-info/
+dist/
+build/
+
+# TypeScript / JavaScript
+*.tsbuildinfo
+*.ts.map
+*.js.map
+npm-debug.log*
+yarn-error.log*
 
 # Go
 *.test
@@ -55,31 +78,42 @@ ENV/
 vendor/
 go.sum
 
-# Rust
+# Rust / Cargo
 Cargo.lock
 target/
+debug/
+release/
+
+# Java
+*.class
+*.log
 
 # Docker
 docker-compose.override.yml
-
-# IDE
-*.iml
-*.ipr
-*.iws
+.docker/
 
 # Testing
 coverage/
 .nyc_output/
 .pytest_cache/
 htmlcov/
+.junit
 
 # Package archives
 *.zip
 *.tar.gz
 *.rar
 *.7z
+*.tar
 
 # Misc
 *.cache
 *.tmp
 *.temp
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+tmp/
+temp/
