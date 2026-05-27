@@ -48,6 +48,28 @@ cd virtual-universe
 
 This repository is currently focused on documentation and community alignment. Contributions and proposals for virtual-universe integrations are welcome via issues and pull requests.
 
+### Example: Interacting with EACO
+
+```bash
+# Query EACO token information on Solana
+# Using solana-cli or web3.js
+
+# Check balance
+npm install @solana/web3.js
+
+# Example code snippet
+const solanaWeb3 = require('@solana/web3.js');
+const PUBLIC_KEY = 'DqfoyZH96RnvZusSp3Cdncjpyp3C74ZmJzGhjmHnDHRH';
+
+console.log('EACO Contract Address:', PUBLIC_KEY);
+```
+
+### Community Engagement
+
+- Join our [Discord](https://discord.gg/HWsweV6fFy) for discussions
+- Follow environmental protection initiatives
+- Participate in community governance
+
 ## 🤝 Contributing
 
 1. Fork the repository
