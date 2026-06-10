@@ -107,7 +107,7 @@ async function getEacoBalance(walletAddress) {
   );
   
   if (eacoAccount) {
-    const balance = account.account.data.parsed.info.tokenAmount.uiAmount;
+    const balance = eacoAccount.account.data.parsed.info.tokenAmount.uiAmount;
     console.log(`EACO Balance: ${balance}`);
     return balance;
   }
