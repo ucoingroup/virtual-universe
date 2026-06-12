@@ -117,3 +117,14 @@ htmlcov/
 .cache/
 tmp/
 temp/
+
+# Blockchain / Web3 specific
+secret.json
+wallet.json
+*.key
+*.pem
+rpc_endpoint.txt
+.cache/
+anchor/tests/
+.mocharc.js
+tsconfig.tsbuildinfo
