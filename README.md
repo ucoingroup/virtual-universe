@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Discord](https://img.shields.io/discord/HWsweV6fFy?label=Discord&logo=discord)](https://discord.gg/HWsweV6fFy)
 [![GitHub Stars](https://img.shields.io/github/stars/ucoingroup/virtual-universe)](https://github.com/ucoingroup/virtual-universe/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/ucoingroup/virtual-universe/network)
+[![GitHub Forks](https://img.shields.io/github/forks/ucoingroup/virtual-universe)](https://github.com/ucoingroup/virtual-universe/network)
 [![GitHub Issues](https://img.shields.io/github/issues/ucoingroup/virtual-universe)](https://github.com/ucoingroup/virtual-universe/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ucoingroup/virtual-universe)](https://github.com/ucoingroup/virtual-universe/pulls)
 
