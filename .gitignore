@@ -20,9 +20,6 @@ Desktop.ini
 # Logs
 *.log
 logs/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 lerna-debug.log*
 
 # Dependencies
@@ -59,7 +56,6 @@ __pycache__/
 env/
 venv/
 ENV/
-venv/
 .eggs/
 *.egg-info/
 dist/
