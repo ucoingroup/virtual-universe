@@ -9,6 +9,19 @@
 
 > A project exploring how EACO ($eaco) integrates with the virtual universe and facilitates circulation and usage within it.
 
+## 📋 Table of Contents
+
+- [🌟 About EACO](#-about-eaco)
+- [✨ Features](#-features)
+- [📁 Project Structure](#-project-structure)
+- [🚀 Quick Start](#-quick-start)
+- [📖 Usage](#-usage)
+- [🤝 Contributing](#-contributing)
+- [🔗 Useful Links](#-useful-links)
+- [📄 License](#-license)
+
+---
+
 ## 🌟 About EACO
 
 EACO ($eaco) is an innovative community currency — the only $eaco in the universe and on Earth.
@@ -104,11 +117,25 @@ async function getEacoBalance(walletAddress) {
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-idea`)
-3. Commit your changes (`git commit -m 'Add amazing idea'`)
-4. Push to the branch (`git push origin feature/amazing-idea`)
-5. Open a Pull Request
+We welcome contributions from the community! Here's how you can help:
+
+### Reporting Issues
+- Use the [GitHub Issues](https://github.com/ucoingroup/virtual-universe/issues) page
+- Clearly describe the problem or suggestion
+- Include relevant details and context
+
+### Submitting Changes
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-idea`)
+3. **Commit** your changes (`git commit -m 'Add amazing idea'`)
+4. **Push** to the branch (`git push origin feature/amazing-idea`)
+5. **Open** a Pull Request
+
+### Development Guidelines
+- Write clear, descriptive commit messages
+- Follow existing code style and conventions
+- Add tests for new features when applicable
+- Update documentation as needed
 
 ## 🔗 Useful Links
 
