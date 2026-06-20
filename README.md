@@ -137,16 +137,37 @@ We welcome contributions from the community! Here's how you can help:
 - Add tests for new features when applicable
 - Update documentation as needed
 
+## 🛣️ Roadmap
+
+- [x] Project documentation and structure
+- [x] MIT License added
+- [ ] Smart contract integration examples
+- [ ] Virtual universe API specifications
+- [ ] SDK development for EACO integration
+- [ ] Community governance framework
+- [ ] Cross-chain bridge exploration
+
 ## 🔗 Useful Links
 
 - [EACO on Solana Explorer](https://explorer.solana.com/address/DqfoyZH96RnvZusSp3Cdncjpyp3C74ZmJzGhjmHnDHRH)
 - [Solana Documentation](https://docs.solana.com/)
 - [Discord Community](https://discord.gg/HWsweV6fFy)
+- [EACO Website](https://eaco.example.com) *(Coming Soon)*
+
+## 💬 Community & Support
+
+- **Discord**: Join our [community server](https://discord.gg/HWsweV6fFy) for discussions
+- **Twitter**: Follow [@EACO_token](https://twitter.com/EACO_token) for updates
+- **Issues**: Report bugs or suggest features on [GitHub Issues](https://github.com/ucoingroup/virtual-universe/issues)
+- **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/ucoingroup/virtual-universe/discussions)
 
 ## 📄 License
 
-MIT License — see [LICENSE](LICENSE) file.
+MIT License — see [LICENSE](LICENSE) file for details.
 
 ---
 
-Made with ❤️ by [ucoingroup](https://github.com/ucoingroup)
+<div align="center">
+  <p>Made with ❤️ by <a href="https://github.com/ucoingroup">ucoingroup</a></p>
+  <p><em>EACO — Earth's Best Coin 🌍</em></p>
+</div>
