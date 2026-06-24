@@ -58,8 +58,9 @@ virtual-universe/
 ### Prerequisites
 
 - Git
-- Node.js (v16 or higher)
-- Solana CLI (optional, for advanced usage)
+- Node.js (v16 or higher) - for interacting with Solana blockchain
+- Solana CLI (optional, for advanced wallet operations)
+- A Solana wallet (e.g., Phantom, Solflare)
 
 ### Installation
 
@@ -68,28 +69,36 @@ virtual-universe/
 git clone https://github.com/ucoingroup/virtual-universe.git
 cd virtual-universe
 
-# Install dependencies
-npm install @solana/web3.js
+# No build step required - this is a documentation and specification repository
+# For development with Solana integration, install the web3 library:
+# npm install @solana/web3.js
 ```
 
-### Verify Installation
+### Verify Setup
 
 ```bash
-# Check Node.js
+# Check Node.js (if using JavaScript examples)
 node --version
 npm --version
 
-# Check Solana CLI (optional)
+# Check Solana CLI (optional, for advanced usage)
 solana --version
+
+# Verify EACO token on Solana Explorer
+# Visit: https://explorer.solana.com/address/DqfoyZH96RnvZusSp3Cdncjpyp3C74ZmJzGhjmHnDHRH
 ```
 
 ## 📖 Usage
 
-This repository focuses on documentation and community alignment. Contributions for virtual-universe integrations are welcome.
+This repository serves as the central documentation and specification for how EACO ($eaco) integrates with virtual universe ecosystems.
 
-### Query EACO Token Info
+### Current Focus Areas
 
-```javascript
+1. **Documentation** - Specifications and integration guides
+2. **Community Alignment** - Governance and development roadmaps  
+3. **Standards Development** - Token integration patterns for virtual worlds
+
+### Query EACO Token Info (JavaScript)
 const solanaWeb3 = require('@solana/web3.js');
 
 const EACO_MINT_ADDRESS = 'DqfoyZH96RnvZusSp3Cdncjpyp3C74ZmJzGhjmHnDHRH';
@@ -117,7 +126,14 @@ async function getEacoBalance(walletAddress) {
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Here's how you can help:
+We welcome contributions from the community! This repository aims to build open standards for token integration in virtual universes.
+
+### Ways to Contribute
+
+- **Documentation** - Improve specs, add examples, clarify concepts
+- **Code Examples** - Add integration samples for different platforms
+- **Issue Reporting** - Identify problems or suggest enhancements
+- **Pull Requests** - Submit concrete improvements
 
 ### Reporting Issues
 - Use the [GitHub Issues](https://github.com/ucoingroup/virtual-universe/issues) page
