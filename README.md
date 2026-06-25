@@ -99,6 +99,8 @@ This repository serves as the central documentation and specification for how EA
 3. **Standards Development** - Token integration patterns for virtual worlds
 
 ### Query EACO Token Info (JavaScript)
+
+```javascript
 const solanaWeb3 = require('@solana/web3.js');
 
 const EACO_MINT_ADDRESS = 'DqfoyZH96RnvZusSp3Cdncjpyp3C74ZmJzGhjmHnDHRH';
@@ -176,6 +178,16 @@ We welcome contributions from the community! This repository aims to build open 
 - **Twitter**: Follow [@EACO_token](https://twitter.com/EACO_token) for updates
 - **Issues**: Report bugs or suggest features on [GitHub Issues](https://github.com/ucoingroup/virtual-universe/issues)
 - **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/ucoingroup/virtual-universe/discussions)
+
+## 🔒 Security
+
+If you discover a security vulnerability, please report it responsibly:
+
+1. **DO NOT** open a public GitHub Issue
+2. Email us at **security@ucoingroup.example** (replace with real contact)
+3. Allow reasonable time for response and remediation
+
+We follow responsible disclosure principles to protect the community.
 
 ## 📄 License
 

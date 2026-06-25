@@ -7,6 +7,8 @@
 ehthumbs.db
 Thumbs.db
 Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
 
 # Editor directories and files
 .idea/
@@ -16,6 +18,20 @@ Desktop.ini
 *~
 *.sublime-workspace
 *.sublime-project
+
+# Neovim / Vim
+.nvim/
+.notify/
+.shada/
+*.swn
+*.swo
+*.swp
+
+# Emacs
+*~
+#*#
+.emacs.desktop
+.elc/
 
 # Logs
 *.log
@@ -107,12 +123,6 @@ htmlcov/
 *.tmp
 *.temp
 *.bak
-*.swp
-*.swo
-*~
-.cache/
-tmp/
-temp/
 
 # Blockchain / Web3 specific
 secret.json
