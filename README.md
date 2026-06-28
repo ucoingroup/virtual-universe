@@ -165,6 +165,44 @@ We welcome contributions from the community! This repository aims to build open 
 - [ ] Community governance framework
 - [ ] Cross-chain bridge exploration
 
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    Virtual Universe                      │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐     │
+│  │   Assets    │  │   Economy   │  │  Governance │     │
+│  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘     │
+│         │                │                │             │
+│         └────────────────┼────────────────┘             │
+│                          │                              │
+│                   ┌──────▼──────┐                      │
+│                   │  EACO Token  │                      │
+│                   │  Integration │                      │
+│                   └──────┬──────┘                      │
+└──────────────────────────┼──────────────────────────────┘
+                           │
+                   ┌───────▼───────┐
+                   │  Solana L1    │
+                   │  (Smart       │
+                   │   Contracts)  │
+                   └───────────────┘
+```
+
+## ❓ FAQ
+
+**Q: What is EACO?**  
+A: EACO ($eaco) is a community currency built on Solana, focused on environmental protection and sustainable development.
+
+**Q: How do I get $eaco tokens?**  
+A: Participate in our community events, trading on DEX platforms, or through authorized distribution channels.
+
+**Q: Is this project open source?**  
+A: Yes, this repository is open source under the MIT license.
+
+**Q: How can I integrate EACO into my project?**  
+A: Use the JavaScript examples in the Usage section or refer to our integration guides (coming soon).
+
 ## 🔗 Useful Links
 
 - [EACO on Solana Explorer](https://explorer.solana.com/address/DqfoyZH96RnvZusSp3Cdncjpyp3C74ZmJzGhjmHnDHRH)
