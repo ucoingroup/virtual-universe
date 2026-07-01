@@ -1,0 +1,33 @@
+{
+  "name": "virtual-universe",
+  "version": "1.0.0",
+  "description": "A project exploring how EACO ($eaco) integrates with the virtual universe and facilitates circulation and usage within it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "eaco",
+    "solana",
+    "blockchain",
+    "virtual-universe",
+    "community-currency",
+    "web3",
+    "decentralized"
+  ],
+  "author": "ucoingroup",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucoingroup/virtual-universe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ucoingroup/virtual-universe/issues"
+  },
+  "homepage": "https://github.com/ucoingroup/virtual-universe#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
