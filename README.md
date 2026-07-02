@@ -48,10 +48,21 @@ EACO ($eaco) is an innovative community currency — the only $eaco in the unive
 
 ```
 virtual-universe/
-├── .gitignore      # Standard ignore rules
-├── LICENSE         # MIT License
-└── README.md        # Project documentation
+├── .gitignore         # Standard ignore rules
+├── .github/           # GitHub workflows and templates
+├── CONTRIBUTING.md    # Contribution guidelines
+├── LICENSE            # MIT License
+├── README.md          # Project documentation
+├── SECURITY.md        # Security policy
+└── package.json       # Project metadata and scripts
 ```
+
+### 📦 Key Files
+
+- **package.json**: Node.js project configuration with metadata, scripts, and dependencies
+- **CONTRIBUTING.md**: Comprehensive contribution guidelines and development workflow
+- **SECURITY.md**: Security vulnerability reporting policy
+- **.gitignore**: Standard ignore rules for various development environments
 
 ## 🚀 Quick Start
 

@@ -134,3 +134,14 @@ rpc_endpoint.txt
 anchor/tests/
 .mocharc.js
 tsconfig.tsbuildinfo
+
+# Package managers
+pnpm-lock.yaml
+bun.lockb
+package-lock.json
+yarn.lock
+
+# Deployment
+.vercel/
+.netlify/
+dist-build/
